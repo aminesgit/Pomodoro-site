@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3e4e4;
+    display: grid;
+    .title {
+        font-size: 4.5em;
+        color: #ed766e;
+        justify-self: center;
+        font-weight: 900;
+        padding-top: .5em;
+        user-select: none;
+    }
+    .menu {
+        position: absolute;
+        right: -12.5vw;
+        bottom: -25vh;
+        img {
+            width: 750px;
+            opacity: .7;
+            transform: rotate(-20deg);
+        }
+        ul {
+            list-style: none;
+            position: absolute;
+            top: 52.5%;
+            left: 50%;
+            transform: translate(-50%, -47.5%);
+            line-height: 70px;
+            li {
+                font-size : 3.5em;
+                font-weight: 900;
+                transition: all .5s;
+                cursor: pointer;
+                user-select: none;
+                color: #f3e4e4;
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}

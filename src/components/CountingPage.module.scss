@@ -1,0 +1,17 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    .title {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #fff;
+    }
+    .time {
+        font-size: 7.5em;
+        font-weight: 900;
+        color: #fff;
+    }
+}
