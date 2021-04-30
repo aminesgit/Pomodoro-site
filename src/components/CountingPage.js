@@ -7,7 +7,6 @@ import bellSound from "../bellSound.m4a"
 export default class CountingPage extends Component {
     constructor(props) {
         super(props)
-    
         this.state = {
             CounterText : "",
             minutesValue :  25 - 1,
